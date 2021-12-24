@@ -4,6 +4,98 @@
   
     
     <entry>
+      <title>hexo-todo</title>
+      <link href="/2021/12/22/hexo-todo/"/>
+      <url>/2021/12/22/hexo-todo/</url>
+      
+        <content type="html"><![CDATA[<ol><li>fix bug: 404页面没走自定义</li><li>网易云音乐插件</li><li>图片存放</li><li>etc</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> ToDoList </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>打算写的东西</title>
+      <link href="/2021/12/22/da-suan-xie-de-dong-xi/"/>
+      <url>/2021/12/22/da-suan-xie-de-dong-xi/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>一篇关于显卡首发价、溢价的文章（为了劝退自己买显卡的欲望）</p><p> 包含内容：首发价表格/图、显卡性能参考网站使用等</p></li><li><p>log4j安全问题的整理</p></li><li><p>年终总结</p></li><li><p>暗影精灵一代换网卡</p></li><li><p>etc.</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> ToDoList </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随感-211222</title>
+      <link href="/2021/12/22/sui-gan-211222/"/>
+      <url>/2021/12/22/sui-gan-211222/</url>
+      
+        <content type="html"><![CDATA[<h3 id="每日emo"><a href="#每日emo" class="headerlink" title="每日emo"></a>每日emo</h3><p>就在刚刚，产品又一次问“我解释好多遍你怎么还不清楚”。然而实际情况是，产品并没有给出合理的预期，而是说了半天别的需求（姑且这么给个台阶吧），我理解的才是符合现实情况的。</p><p>到B组这边支持需求真是让我到了一个新的心情谷底，流程紊乱、PRD不明确、产品不解释自己想要的到底是什么样子。</p><p>转组之前，leader说这边流程还挺规范，属实不清楚这是在诓我还是他确实不知道0.0（不应该呀）。</p><pre><code>后续：问了一下leader当时和我说的时候情况如何，答曰“之前前后端的领导确实卡得比较严格，可能最近放松了。”</code></pre><p>中午还发现昨天合到线上的H5版本出现了之前的显示问题，然而dev环境下就没有。我猜测是代码合得有问题，更深的原因应该是前端同事并行多个需求的问题及工作流程存在问题。</p><p>leader要求周会时整理一下调组之后发现的问题，这让我感觉又回到了8月刚负责A组的那段时间：整理问题输出问题探讨解决方式。</p><p>这种工作状态太累了。<br><br></p><h3 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h3><pre><code>常言道，“比较是不幸的来源之一”（语出自哲学家沃·兹基硕德）。</code></pre><p>调到B组之后我常想起之前在A组的情况，虽然当时总是吐槽产品有如何如何的问题，但相比之下，B组这边让我觉得更不堪。这两天气+烦得我胸口疼。</p><p>想来也不该，身体是自己的。然而我就是如此一个人，仍未被磨平棱角，也不愿被磨平棱角。</p><p>Go on.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随感 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工作感想 </tag>
+            
+            <tag> 每日emo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test Properties of Article</title>
+      <link href="/2021/12/21/test-properties-of-article/"/>
+      <url>/2021/12/21/test-properties-of-article/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Markdown-File-Headers"><a href="#Markdown-File-Headers" class="headerlink" title="Markdown File Headers"></a>Markdown File Headers</h2><p>The properties were valid successfully.</p><p>Now I can see them in the markdown file headers of every article.</p><p>Let’s generate a blog page to see if the <em>tags</em> can effect.</p><h2 id="Tags-must-be-written-by-the-format-below"><a href="#Tags-must-be-written-by-the-format-below" class="headerlink" title="Tags must be written by the format below"></a>Tags must be written by the format below</h2><pre><code>tags:    - tag1    - tag2</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test tag 1 </tag>
+            
+            <tag> 测试标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Try to find reason of error online</title>
       <link href="/2021/12/20/try-to-find-reason-of-error-online/"/>
       <url>/2021/12/20/try-to-find-reason-of-error-online/</url>
