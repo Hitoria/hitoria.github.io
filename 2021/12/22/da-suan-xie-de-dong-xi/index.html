@@ -5,20 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="打算写的东西, 永远胡思乱想">
-    <meta name="description" content="
-一篇关于显卡首发价、溢价的文章（为了劝退自己买显卡的欲望）
- 包含内容：首发价表格/图、显卡性能参考网站使用等
-
-log4j安全问题的整理
-
-年终总结
-
-暗影精灵一代换网卡
-
-etc.
-
-
-">
+    <meta name="description" content="在Hexo里我要写哪些东西">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -321,6 +308,19 @@ etc.
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -752,7 +752,7 @@ etc.
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            这里记一下我要对hexo做什么
                         
                     </div>
                     <div class="publish-info">
@@ -793,7 +793,7 @@ etc.
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            一篇关于工作的随感
                         
                     </div>
                     <div class="publish-info">

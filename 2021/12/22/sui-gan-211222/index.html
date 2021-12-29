@@ -5,8 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="随感-211222, 永远胡思乱想">
-    <meta name="description" content="每日emo就在刚刚，产品又一次问“我解释好多遍你怎么还不清楚”。然而实际情况是，产品并没有给出合理的预期，而是说了半天别的需求（姑且这么给个台阶吧），我理解的才是符合现实情况的。
-到B组这边支持需求真是让我到了一个新的心情谷底，流程紊乱、P">
+    <meta name="description" content="一篇关于工作的随感">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -309,6 +308,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '09e7355a4abadc3114d86bde79fb1083c563f6852228731c39ba93136ff02542';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -756,7 +768,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            在Hexo里我要写哪些东西
                         
                     </div>
                     <div class="publish-info">
